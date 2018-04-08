@@ -1,5 +1,5 @@
 # Getting-and-Cleaning-Data
-used for the Data Science Coursera course
+-->used for the Data Science Coursera course
 
 The 'run_analysis.R' script imports data collected from the accelerometers of a Samsung Galaxy S smartphone.  A full description
 is available at the site where the data was obtained:
