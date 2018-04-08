@@ -44,7 +44,26 @@ features        contains the labels for each test conducted (561 tests in total)
   
   6-->"Laying"
   
-# Seventh Step  -->  
+# Seventh Step  -->  the train and test data sets are filtered to ONLY contain STD or MEAN tests
+
+This reduces the train_x and test_x datasets to 79 columns from 561
+
+#  Eigth Step  -->  merge the train_x (collected data) with the train_y (activity) data and then merge the train_subj (subject ID) data with the previously merged train data set
+
+#  Ninth Step -->  repeat step #8 above, but for the test data sets
+
+# Tenth Step -->  merge the train and test data sets into one data set (all_data)
+
+# Eleventh Step -->  reshape the all_data data set with the 'reshape' library in order to 'melt' it into a vertical data set.  The resulting data set is 'melted_data'
+
+#  Twelevth Step -->  use the 'cast' function to create a 'tidy' data set from the 'melted_data'.  Cast the new data set based on the activity mean per subject.  The resulting data set is 'my_tidy_data'.
+
+#  Thirteenth Step -->  write out the 'tidy' data set as 'my_tidy_data.txt' file.
+
+
+
+
+
 
 
 
